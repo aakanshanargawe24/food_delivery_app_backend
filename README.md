@@ -1,33 +1,28 @@
-# Food Delivery App - Frontend
-This is the frontend part of the **Food Delivery App**, built using **React**. The app provides users with a seamless experience for ordering food online.
+### Backend README
+# Food Delivery App - Backend
+
+This is the backend part of the **Food Delivery App**, developed using **Node.js** and **Express.js**. The backend provides APIs for managing food delivery operations.
 
 ## Features
 
-- **User Authentication**: Secure login and registration using JSON Web Tokens (JWT).
-- **Cart Functionality**: Users can add items to their cart and manage orders.
-- **Search Bar**: Quickly find food items from the menu.
-- **Location Feature**: Users can input their location to get delivery options.
-- **Order History**:Users can see their past orders
+- **User Authentication**: Secure registration and login using **bcrypt.js** for password hashing and **JWT** for session management.
+- **RESTful APIs**: Endpoints for managing food items, orders, and user sessions.
+- **Data Storage**: Utilizes **MongoDB** for efficient data management.
 
 ## Technologies Used
 
-- **React**: For building the user interface.
-- **Context API**: For state management across components.
-- **Axios**: For making HTTP requests to the backend.
-- **CSS**: For styling the application.
+- **Node.js**: JavaScript runtime for building the server.
+- **Express.js**: Web framework for creating RESTful APIs.
+- **MongoDB**: NoSQL database for data storage.
+- **JWT**: For secure user authentication.
+- **bcrypt.js**: For hashing passwords.
+## URL
+  [Backend url](https://food-delivery-app-backend-0yhr.onrender.com)
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/devvib/food_delivery_app_frontend.git
-
-## URL
-[Frontend url](https://food-delivery-app-frontend-c73i.onrender.com)
-
-For frontend to run, go to backend link and open it (this is render's problem they inactive the service sites after a period of in inactivity)
-
-[Backend url](https://food-delivery-app-backend-0yhr.onrender.com)
-
+   git clone https://github.com/devvib/food_delivery_app_backend.git
 
 
